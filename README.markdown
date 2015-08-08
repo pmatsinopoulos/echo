@@ -33,7 +33,7 @@ curl "https://echo-data.herokuapp.com/echo?hello=world" -v --header "Accept: app
 
 The source code of the echo data service is found here:
 
-https://github.com/pmatsinopoulos/echo
+[https://github.com/pmatsinopoulos/echo](https://github.com/pmatsinopoulos/echo)
 
 # My Contact Details #
 
@@ -41,6 +41,6 @@ https://github.com/pmatsinopoulos/echo
 
 **email:** panayotis@matsinopoulos.gr
 
-**My Web Site:** https://pmatsinopoulos.github.io
+**My Web Site:** [https://pmatsinopoulos.github.io](https://pmatsinopoulos.github.io)
 
 
