@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'responders'
 
+gem 'redcarpet'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -34,6 +36,8 @@ gem 'responders'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'quiet_assets', group: :development
 
 group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views

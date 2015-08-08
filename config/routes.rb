@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  post '/', to: 'echo#index'
+  post 'echo', to: 'echo#echo'
+  get  'echo', to: 'echo#echo'
+
   root 'echo#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

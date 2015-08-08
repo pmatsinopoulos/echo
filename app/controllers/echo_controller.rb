@@ -1,9 +1,13 @@
 class EchoController < ApplicationController
   skip_before_action :verify_authenticity_token
 
-  respond_to :json, :xml
+  respond_to :json, :xml, :html
 
   def index
+
+  end
+
+  def echo
     data = request.body.read
     data_decoded = nil
 

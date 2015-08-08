@@ -1,0 +1,3 @@
+<% content = IO.read("#{Rails.root}/README.markdown")
+   markdown = Redcarpet::Markdown.new Redcarpet::Render::HTML %>
+<%= raw markdown.render content %>
